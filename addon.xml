@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.module.cffi" name="CFFI Module" provider-name="hbiyik" version="1.10.0">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.abi" version="0.0.1"/>
+		<import addon="script.module.pycparser" version="2.17"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">CFFI precompiled module</summary>
+		<summary lang="tr">CFFI için önceden derlenmiş kütüphane</summary>
+		<description lang="en">Plyvel</description>
+		<license>GNU General Public License, v2</license>
+		<forum>https://github.com/hbiyik/script.module.cffi/issues</forum>
+		<website>https://github.com/hbiyik/script.module.cfii</website>
+		<email>huseyinbiyik@hotmail.com</email>
+	</extension>
+</addon>
